@@ -1,0 +1,378 @@
+{
+   "name":"Baron Blade",
+   "kind":"Villain",
+   "initialCardIdentifiers":[
+      "BaronBladeCharacter"
+   ],
+   "cards":[
+      {
+         "identifier":"BaronBladeCharacter",
+         "count":1,
+         "title":"Baron Blade",
+         "keywords":[
+            "villain"
+         ],
+         "icons":[
+            "StartOfTurnAction",
+            "LoseTheGame"
+         ],
+         "advancedIcons":[
+            "EndOfTurnAction",
+            "Discard"
+         ],
+         "body":"Terralunar Impulsion{BR}Beam Inventor",
+         "backgroundColor":"D99FC5",
+         "foilBackgroundColor":"CD96C0",
+         "character":true,
+         "hitpoints":40,
+         "nemesisIdentifiers":[
+            "Legacy"
+         ],
+         "setup":[
+            "At the start of the game, {BaronBlade} enters play “Terralunar Impulsion Beam Inventor“ side up.",
+            "One “Mobile Defense Platform“ is put into play. The Villain Deck is shuffled."
+         ],
+         "gameplay":[
+            "At the start of the Villain Turn, if there are 15 or more cards in the villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. Game Over.",
+            "When {BaronBlade} would be destroyed, his Villain Character card flips to the “Vengeful Mad Scientist“ side instead."
+         ],
+         "advanced":"At the end of the Villain Turn, the top {H - 2} cards of the Villain Deck are discarded.",
+         "flippedHitpoints":30,
+         "flippedBody":"Vengeful Mad Scientist",
+         "flippedGameplay":[
+            "When flipped to this side, {BaronBlade}'s maximum HP is 30. {BaronBlade} is restored to 30 HP. The Villain Trash is placed on top of the Villain deck. All 3 copies of “Mobile Defense Platform” are moved to the Villain Trash. The Villain Deck is shuffled.",
+            "At the end of the Villain turn, {BaronBlade} deals the Hero Target with the highest HP {H} Energy Damage."
+         ],
+         "flippedAdvanced":"Reduce Damage dealt to {BaronBlade} by 1.",
+         "flippedIcons":[
+            "EndOfTurnAction",
+            "DealDamageEnergy"
+         ],
+         "flippedAdvancedIcons":[
+            "ReduceDamageTaken"
+         ],
+		 "difficulty":1,
+		 "challengeTitle":"Decoy Impulsion Beam",
+		 "challengeText":[
+		 	"When Baron Blade flips to his second side, the Villain Trash is not placed on top of the villain deck and the villain deck is not shuffled.",
+		 	"At the start of the Villain Turn, if there are 15 or more cards in the villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. Game Over."
+	 	 ],
+		 "challengeIcons":[
+		 	"StartOfTurnAction",
+		 	"LoseTheGame"
+		 ],
+		"openingLines":
+		{
+		   "default": "Tremble, fools! The moon grows closer with your every breath!",
+		   "LegacyCharacter": "At last! The destruction of my greatest foe is at hand! Legacy shall fall!",
+		   "YoungLegacyCharacter": "Yet another blasted Legacy! Will there be no end to your terrible line?",
+		   "AmericasGreatestLegacyCharacter": "Ah, Paul Parsons. I've bested you once, and now I shall do so again!",
+		   "FreedomFiveLegacyCharacter": "It is fitting that you, Legacy, shall bear witness to my greatest creation! The superior strength of mind shall triumph!",
+		   "LuminaryCharacter": "What mockery is this? How dare you impersonate the great Baron Blade!",
+		   "HeroicLuminaryCharacter": "You show promise, child. Under my tutelage, you could learn to shine so much brighter!"
+        }
+			
+      },
+      {
+         "identifier":"BacklashField",
+         "count":2,
+         "title":"Backlash Field",
+         "keywords":[
+            "ongoing"
+         ],
+         "icons":[
+         	"CounterDamage",
+            "DealDamageLightning"
+         ],
+         "body":"The first time {BaronBlade} is dealt damage by a target each turn, {BaronBlade} deals that target 3 lightning damage.",
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"Like lambs to the slaughter . . ."
+            }
+         ],
+         "flavorReference":"Baron Blade, Moonfall #4"
+      },
+      {
+         "identifier":"BladeBattalion",
+         "count":4,
+         "title":"Blade Battalion",
+         "keywords":[
+            "minion"
+         ],
+         "icons":[
+         	"EndOfTurnAction",
+            "DealDamageMelee"
+         ],
+         "body":"At the end of the Villain turn, this card deals the Hero target with the highest HP X melee damage, where X = the current HP of this card.",
+         "flavorQuotes":[
+            {
+               "identifier":"Tachyon",
+               "text":"Give me a break!{BR}Not these guys, again!"
+            }
+         ],
+         "flavorReference":"Tachyon, Freedom Five #419",
+         "hitpoints":5
+      },
+      {
+         "identifier":"ConsiderThePriceOfVictory",
+         "count":1,
+         "title":"\"Consider the Price of Victory!\"",
+         "keywords":[
+            "one-shot"
+         ],
+         "icons":[
+            "Discard",
+            "DealDamageSonic"
+         ],
+         "body":[
+            "Each player discards 1 card.",
+            "{BaronBlade} deals each Hero target 2 sonic damage.",
+            "Discard X cards from the top of the Villain deck, where X = the number of hero cards discarded this turn."
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"Before this day is ended,{BR}the entire planet shall grovel{BR}helplessly at my feet!"
+            }
+         ],
+         "flavorReference":"Baron Blade, Moonfall #5"
+      },
+      {
+         "identifier":"DeviousDisruption",
+         "count":2,
+         "title":"Devious Disruption",
+         "keywords":[
+            "one-shot"
+         ],
+         "icons":[
+            "DestroyEquipment",
+            "DestroyOngoing",
+            "DealDamageLightning"
+         ],
+         "body":[
+            "Each player may destroy any of their Equipment and/or Ongoing cards.",
+            "{BaronBlade} deals each Hero target X lightning damage, where X = 3 plus the number of Hero Ongoing and Equipment cards still in play."
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"The agony and shame of{BR}your defeat shall [b]break you![/b]"
+            }
+         ],
+         "flavorReference":"Baron Blade, Freedom Five #458"
+      },
+      {
+         "identifier":"ElementalRedistributor",
+         "count":2,
+         "title":"Elemental Redistributor",
+         "keywords":[
+            "device"
+         ],
+         "icons":[
+            "RedirectDamageFire",
+            "RedirectDamageCold",
+            "RedirectDamageLightning"
+         ],
+         "body":"Whenever {BaronBlade} would be dealt fire, cold, or lightning damage, redirect that damage to the Hero target with the lowest HP.",
+         "flavorText":"Baron Blade's inventions{BR}provide him offensive and defensive{BR}versatility and allow him to catch{BR}the Heroes unprepared.",
+         "hitpoints":10
+      },
+      {
+         "identifier":"FleshRepairNanites",
+         "count":1,
+         "title":"Flesh-Repair Nanites",
+         "keywords":[
+            "one-shot"
+         ],
+         "body":"{BaronBlade} regains 10 HP.",
+         "icons":[
+            "GainHP"
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"To such simple minds,{BR}my advanced technology is{BR}indistinguishable from magic."
+            }
+         ],
+         "flavorReference":"Baron Blade, Freedom Five #107"
+      },
+      {
+         "identifier":"HastenDoom",
+         "count":4,
+         "title":"Hasten Doom",
+         "keywords":[
+            "one-shot"
+         ],
+         "icons":[
+            "DealDamageToxic",
+            "PlayCardNow"
+         ],
+         "body":[
+            "{BaronBlade} deals each Hero target 2 toxic damage.",
+            "Play the top card of the Villain deck."
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"Can you feel that,{BR}Mr. Parsons? That feeling is the{BR}inevitability of your death!"
+            }
+         ],
+         "flavorReference":"Baron Blade, Moonfall #4"
+      },
+      {
+         "identifier":"LivingForceField",
+         "count":2,
+         "title":"Living Force Field",
+         "keywords":[
+            "ongoing"
+         ],
+         "icons":[
+            "ReduceDamageTaken"
+         ],
+         "body":"Reduce damage dealt to {BaronBlade} by 1.",
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"I am hardly amused by your{BR}worthless attempts at competence."
+            }
+         ],
+         "flavorReference":"Baron Blade, Freedom Five #124"
+      },
+      {
+         "identifier":"MobileDefensePlatform",
+         "count":3,
+         "title":"Mobile Defense Platform",
+         "keywords":[
+            "device"
+         ],
+         "icons":[
+            "ImmuneToDamage"
+         ],
+         "body":"{BaronBlade} is immune to damage.",
+         "flavorQuotes":[
+            {
+               "identifier":"Legacy",
+               "text":"Until we take that blasted{BR}floating fortress out, Blade is{BR}practically untouchable!"
+            }
+         ],
+         "flavorReference":"Legacy, Moonfall #9",
+         "hitpoints":10
+      },
+      {
+         "identifier":"PoweredRemoteTurret",
+         "count":2,
+         "title":"Powered Remote Turret",
+         "keywords":[
+            "device"
+         ],
+         "icons":[
+         	"EndOfTurnAction",
+            "DealDamageProjectile",
+            "IncreaseDamageDealt"
+         ],
+         "body":[
+            "At the end of the Villain Turn, this card deals each Hero target 2 projectile damage.",
+            "Increase damage dealt by this card by 1 for each Mobile Defense Platform in play."
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"Arming this platform has{BR}been one of my best decisions.{BR}It's the little things, really."
+            }
+         ],
+         "flavorReference":"Baron Blade, Freedom Five #449",
+         "hitpoints":7
+      },
+      {
+         "identifier":"SlashAndBurn",
+         "count":2,
+         "title":"Slash and Burn",
+         "keywords":[
+            "one-shot"
+         ],
+         "icons":[
+            "DealDamageMelee",
+            "DealDamageFire"
+         ],
+         "body":[
+            "{BaronBlade} deals the Hero target with the lowest HP {H} melee damage.",
+            "{BaronBlade} deals the Hero target with the highest HP {H + 2} fire damage."
+         ],
+         "flavorQuotes":[
+            {
+               "identifier":"BaronBlade",
+               "text":"Heroes! Just in time{BR}to test my latest [b]upgrades![/b]"
+            }
+         ],
+         "flavorReference":"Baron Blade, Freedom Five #457"
+      }
+   ],
+   "promoCards":[
+      {
+         "identifier":"BaronBladeCharacter",
+         "promoIdentifier":"MadBomberBladeCharacter",
+         "count":1,
+         "title":"Baron Blade",
+         "promoTitle":"Mad Bomber Blade",
+         "keywords":[
+            "villain"
+         ],
+         "icons":[
+            "StartOfTurnAction",
+            "DealDamageFire"
+         ],
+         "advancedIcons":[
+            "EndOfTurnAction"
+         ],
+         "body":"Mad Bomber",
+         "backgroundColor":"D99FC5",
+         "foilBackgroundColor":"CD96C0",
+         "character":true,
+         "hitpoints":30,
+         "nemesisIdentifiers":[
+            "Legacy"
+         ],
+         "setup":"At the start of the game, {BaronBlade} enters play “Mad Bomber Blade“ side up.",
+         "gameplay":[
+            "Whenever a villain target enters play, it is placed under this card and the top card of the villain deck is played. Cards under this card have no game text, are indestructible, and are not considered in play.",
+            "At the start of the Villain turn, {BaronBlade} deals each non-Villain Target X Fire Damage where X = the number of cards under this card.",
+            "When {BaronBlade} would be destroyed, his villain character card flips to the “Maniacal Death Ray Wielder“ side instead."
+         ],
+         "advanced":"At the end of the villain turn, the top {H - 2} cards of the villain deck are placed under this card.",
+         "flippedBody":"Maniacal Death Ray Wielder",
+         "flippedHitpoints": 40,
+         "flippedGameplay":[
+            "When {BaronBlade} flips to this side, restore him to 40 HP. Shuffle all cards under this card and the villain trash into the villain deck. Destroy X hero ongoing and/or equipment cards, where X = the number of cards moved from under this card.",
+            "At the start of the villain turn, {BaronBlade} deals the hero target with the highest HP X energy damage, where X = the number of cards in the villain trash.",
+            "Whenever a villain target enters play, it is destroyed."
+         ],
+         "flippedAdvanced":"At the end of the villain turn, the top card of the villain deck is played.",
+         "flippedIcons":[
+            "StartOfTurnAction",
+            "DealDamageEnergy",
+            "DestroyTarget"
+         ],
+         "flippedAdvancedIcons":[
+            "EndOfTurnAction",
+            "PlayCardNow"
+         ],
+		 "difficulty":2,
+		 "challengeTitle":"Nanobot Power Armor",
+		 "challengeText":"Reduce damage dealt to {BaronBlade} by 2.",
+		 "challengeIcons":[
+		 	"ReduceDamageTaken"
+		 ],
+		"openingLines":
+		{
+		   "default": "My bombs are scattered everywhere! You cannot win.",
+		   "LegacyCharacter": "If I cannot destroy you, Legacy, I will destroy all that you love!",
+		   "YoungLegacyCharacter": "You think yourself so clever. Your father knew to fear me. You shall learn...",
+		   "AmericasGreatestLegacyCharacter": "Your legacy is one of loss and despair, Mr. Parsons! And now, you fall!",
+		   "FreedomFiveLegacyCharacter": "Every second that you spend chasing me is paid for by those innocent people you love so much. [b]hahahahahahahahahahaha![/b]",
+		   "LuminaryCharacter": "Ah, one of my robot duplicates. Make yourself useful and start arming the explosives!",
+		   "HeroicLuminaryCharacter": "The timers are set; the bombs are hidden. You claim the name of Ramonat? Come, be part of the glory!"
+        }
+      }
+   ]
+}
