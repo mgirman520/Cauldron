@@ -5,11 +5,11 @@ namespace Cauldron.Controller.Baccarat
     
     using Handelabra.Sentinels.Engine.Model;
 
-    public class AbyssalSolitareCardController : CardController
+    public class AfterlifeEuchreCardController : CardController
     {
         #region Constructors
 
-        public AbyssalSolitareCardController(Card card, TurnTakerController turnTakerController)
+        public AfterlifeEuchreCardController(Card card, TurnTakerController turnTakerController)
             : base(card, turnTakerController) { }
 
         #endregion Constructors
@@ -18,7 +18,7 @@ namespace Cauldron.Controller.Baccarat
 
         public override IEnumerator Play()
         {
-            //Until the start of your next turn, reduce damage dealt to {Baccarat} by 1.
+            //Increase the next damage dealt by {Baccarat} by 1, or {Baccarat} deals 1 target 2 toxic damage.
 
         }
 

@@ -5,11 +5,11 @@ namespace Cauldron.Controller.Baccarat
     
     using Handelabra.Sentinels.Engine.Model;
 
-    public class AbyssalSolitareCardController : CardController
+    public class IFoldCardController : CardController
     {
         #region Constructors
 
-        public AbyssalSolitareCardController(Card card, TurnTakerController turnTakerController)
+        public IFoldCardController(Card card, TurnTakerController turnTakerController)
             : base(card, turnTakerController) { }
 
         #endregion Constructors
@@ -18,7 +18,7 @@ namespace Cauldron.Controller.Baccarat
 
         public override IEnumerator Play()
         {
-            //Until the start of your next turn, reduce damage dealt to {Baccarat} by 1.
+            //Discard your hand and draw 3 cards.
 
         }
 

@@ -5,11 +5,11 @@ namespace Cauldron.Controller.Baccarat
     
     using Handelabra.Sentinels.Engine.Model;
 
-    public class AbyssalSolitareCardController : CardController
+    public class CheapTrickCardController : CardController
     {
         #region Constructors
 
-        public AbyssalSolitareCardController(Card card, TurnTakerController turnTakerController)
+        public CheapTrickCardController(Card card, TurnTakerController turnTakerController)
             : base(card, turnTakerController) { }
 
         #endregion Constructors
@@ -18,7 +18,8 @@ namespace Cauldron.Controller.Baccarat
 
         public override IEnumerator Play()
         {
-            //Until the start of your next turn, reduce damage dealt to {Baccarat} by 1.
+            //Discard the top card of your deck.
+            //Reveal cards from the top of your deck until you reveal a trick. Shuffle the other cards back into your deck and put the trick into play.
 
         }
 
