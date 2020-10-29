@@ -2,7 +2,7 @@ namespace Cauldron.Controller.Baccarat
 {
     using System;
     using System.Collections;
-    
+    using Handelabra.Sentinels.Engine.Controller;
     using Handelabra.Sentinels.Engine.Model;
 
     public class AbyssalSolitareCardController : CardController
@@ -10,7 +10,10 @@ namespace Cauldron.Controller.Baccarat
         #region Constructors
 
         public AbyssalSolitareCardController(Card card, TurnTakerController turnTakerController)
-            : base(card, turnTakerController) { }
+            : base(card, turnTakerController)
+        {
+
+        }
 
         #endregion Constructors
 

@@ -5,26 +5,17 @@ namespace Cauldron.Baccarat
 
     using Handelabra.Sentinels.Engine.Model;
 
-    public class BaccaratCharacterCardController : HeroCharacterCardController
+    public class BaccaratTurnTakerController : HeroTurnTakerController
     {
         #region Constructors
 
-        public BaccaratCharacterCardController(Card card, TurnTakercontroller turnTakercontroller)
-            : base(card, turnTakercontroller)
+        public BaccaratTurnTakerController(TurnTaker turnTaker, GameController gameController)
+            : base(turnTaker, gameController)
         {
 
         }
 
         #endregion Constructors
-
-        #region Properties
-
-        private ITrigger ReduceTrigger
-        {
-            get; set;
-        }
-
-        #endregion Properties
 
         #region Methods
 
