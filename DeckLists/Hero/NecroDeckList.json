@@ -2,7 +2,7 @@
     "name": "Necro",
     "kind": "Hero",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "NecroCharacter"
     ],
     "cards": [

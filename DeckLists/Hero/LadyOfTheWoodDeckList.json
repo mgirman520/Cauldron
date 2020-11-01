@@ -2,7 +2,7 @@
     "name": "Lady Of The Wood",
     "kind": "Hero",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "LadyOfTheWoodCharacter"
     ],
     "cards": [

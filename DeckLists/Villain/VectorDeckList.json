@@ -2,7 +2,7 @@
     "name": "Vector",
     "kind": "Villain",
     "expansionIdentifier": "CauldronExperimental",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "VectorCharacter"
     ],
     "cards": [

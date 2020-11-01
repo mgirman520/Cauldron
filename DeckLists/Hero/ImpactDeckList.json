@@ -2,7 +2,7 @@
     "name": "Impact",
     "kind": "Hero",
     "expansionIdentifier":"CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "ImpactCharacter"
     ],
     "cards": [

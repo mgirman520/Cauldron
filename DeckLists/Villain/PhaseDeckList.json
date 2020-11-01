@@ -2,7 +2,7 @@
     "name": "Phase",
     "kind": "Villain",
     "expansionIdentifier":"CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "PhaseCharacter",
         "ReinforcedWall"
     ],

@@ -2,7 +2,7 @@
     "name": "Gyrosaur",
     "kind": "Hero",
     "expansionIdentifier":"CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "GyrosaurCharacter"
     ],
     "cards": [

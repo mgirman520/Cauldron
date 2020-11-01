@@ -2,7 +2,7 @@
     "name": "Echelon",
     "kind": "Hero",
     "expansionIdentifier": "CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "EchelonCharacter"
     ],
     "cards": [

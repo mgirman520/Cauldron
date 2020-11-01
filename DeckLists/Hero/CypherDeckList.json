@@ -2,7 +2,7 @@
     "name": "Cypher",
     "kind": "Hero",
     "expansionIdentifier":"CauldronExperimental",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "CypherCharacter"
     ],
     "cards": [

@@ -2,7 +2,7 @@
     "name": "Dendron",
     "kind": "Villain",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "DendronCharacter"
     ],
     "cards": [

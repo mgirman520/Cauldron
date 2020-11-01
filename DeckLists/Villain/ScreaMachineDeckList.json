@@ -2,7 +2,7 @@
     "name": "ScreaMachine",
     "kind": "Villain",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TheSetList",
         "SliceCharacter",
         "ValentineCharacter",

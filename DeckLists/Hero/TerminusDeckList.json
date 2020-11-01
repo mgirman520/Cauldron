@@ -2,7 +2,7 @@
     "name": "Terminus",
     "kind": "Hero",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TerminusCharacter"
     ],
     "cards": [

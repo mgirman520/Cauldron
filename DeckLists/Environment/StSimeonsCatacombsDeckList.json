@@ -2,7 +2,7 @@
     "name": "St. Simeon's Catacombs",
     "kind": "Environment",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "StSimeonsCatacombs"
     ],
     "backgroundColor": "FB5455",

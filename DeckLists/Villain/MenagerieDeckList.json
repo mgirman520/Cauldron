@@ -2,7 +2,7 @@
     "name": "Menagerie",
     "kind": "Villain",
     "expansionIdentifier": "CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "MenagerieCharacter"
     ],
     "cards": [

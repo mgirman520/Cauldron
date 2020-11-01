@@ -2,7 +2,7 @@
     "name": "Quicksilver",
     "kind": "Hero",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "QuicksilverCharacter"
     ],
     "cards": [

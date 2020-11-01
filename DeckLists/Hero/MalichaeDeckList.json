@@ -2,7 +2,7 @@
     "name": "Malichae",
     "kind": "Hero",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "MalichaeCharacter"
     ],
     "cards": [

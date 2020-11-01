@@ -2,7 +2,7 @@
     "name": "The Ram",
     "kind": "Villain",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TheRamCharacter"
     ],
     "cards": [

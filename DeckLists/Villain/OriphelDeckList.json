@@ -2,7 +2,7 @@
     "name": "Oriphel",
     "kind": "Villain",
     "expansionIdentifier": "CauldronExperimental",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "OriphelCharacter"
     ],
     "cards": [

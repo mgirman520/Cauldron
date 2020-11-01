@@ -2,7 +2,7 @@
     "name": "Calderoch",
     "kind": "Villain",
     "expansionIdentifier": "CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "CalderochCharacter"
     ],
     "cards": [

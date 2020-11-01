@@ -2,7 +2,7 @@
     "name": "Dynamo",
     "kind": "Villain",
     "expansionIdentifier":"CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "DynamoCharacter"
     ],
     "cards": [

@@ -2,7 +2,7 @@
     "name": "Magnificent Mara",
     "kind": "Hero",
     "expansionIdentifier": "CauldronStormfall",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "MagnificentMaraCharacter"
     ],
     "cards": [

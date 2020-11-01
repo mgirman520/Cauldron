@@ -2,7 +2,7 @@
     "name": "Tiamat",
     "kind": "Villain",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "WinterTiamatCharacter",
         "InfrernoTiamatCharacter",
         "StormTiamatCharacter"

@@ -2,7 +2,7 @@
     "name": "Mythos",
     "kind": "Villain",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "MythosCharacter"
     ],
     "cards": [

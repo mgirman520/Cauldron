@@ -2,7 +2,7 @@
     "name": "Gray",
     "kind": "Villain",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "GrayCharacter"
     ],
     "cards": [

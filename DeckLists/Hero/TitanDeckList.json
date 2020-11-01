@@ -2,7 +2,7 @@
     "name": "Titan",
     "kind": "Hero",
     "expansionIdentifier": "CauldronExperimental",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TitanCharacter"
     ],
     "cards": [

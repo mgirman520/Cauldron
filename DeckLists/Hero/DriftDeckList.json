@@ -2,7 +2,7 @@
     "name": "Drift",
     "kind": "Hero",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "DriftCharacter",
         "ShiftTrack"
     ],

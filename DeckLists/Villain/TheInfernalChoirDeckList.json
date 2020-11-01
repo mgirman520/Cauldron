@@ -2,7 +2,7 @@
     "name": "The Infernal Choir",
     "kind": "Villain",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TheInfernalChoirCharacter",
         "VagrantHeart"
     ],

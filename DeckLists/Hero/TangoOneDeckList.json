@@ -1,7 +1,7 @@
 {
     "name": "Tango One",
     "kind": "Hero",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TangoOneCharacter"
     ],
     "cards": [

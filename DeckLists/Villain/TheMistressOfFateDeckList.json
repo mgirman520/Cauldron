@@ -2,7 +2,7 @@
     "name": "The Mistress Of Fate",
     "kind": "Villain",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "TheMistressOfFateCharacter",
         "Timeline"
     ],

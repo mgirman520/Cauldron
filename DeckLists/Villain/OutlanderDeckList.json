@@ -2,7 +2,7 @@
     "name": "Outlander",
     "kind": "Villain",
     "expansionIdentifier": "CauldronAdrift",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "OutlanderCharacter"
     ],
     "cards": [

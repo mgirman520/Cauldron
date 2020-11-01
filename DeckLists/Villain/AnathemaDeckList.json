@@ -2,7 +2,7 @@
     "name": "Anathema",
     "kind": "Villain",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "AnathemaCharacter"
     ],
     "cards": [

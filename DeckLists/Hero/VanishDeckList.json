@@ -2,7 +2,7 @@
     "name": "Vanish",
     "kind": "Hero",
     "expansionIdentifier": "Cauldron",
-    "initialCardIdentifires": [
+    "initialCardIdentifiers": [
         "VanishCharacter"
     ],
     "cards": [
